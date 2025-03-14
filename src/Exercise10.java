@@ -53,8 +53,4 @@ public class Exercise10 {
             }
         }
     }
-
-
-
-
 }

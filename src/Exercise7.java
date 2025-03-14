@@ -123,15 +123,15 @@ public class Exercise7 {
                 switch (identificador) {
                         case 1:
                             rendimento = conta1.calculaRendimento();
-                            System.out.println("Seu dinheiro renderá R$" + rendimento + "em conta em até 30 dias");
+                            System.out.println("Seu dinheiro rendeu R$" + rendimento + "em conta nos últimos 30 dias");
                             break;
                         case 2:
                             rendimento = conta2.calculaRendimento();
-                            System.out.println("Seu dinheiro renderá R$" + rendimento + "em conta em até 30 dias");
+                            System.out.println("Seu dinheiro rendeu R$" + rendimento + "em conta nos últimos 30 dias");
                             break;
                         case 3:
                             rendimento = conta3.calculaRendimento();
-                            System.out.println("Seu dinheiro renderá R$" + rendimento + "em conta em até 30 dias");
+                            System.out.println("Seu dinheiro rendeu R$" + rendimento + "em conta nos últimos 30 dias");
                             break;
                         default:
                             System.out.println("Opção inválida.");
@@ -142,8 +142,4 @@ public class Exercise7 {
             }
         }
     }
-
-
-
-
 }

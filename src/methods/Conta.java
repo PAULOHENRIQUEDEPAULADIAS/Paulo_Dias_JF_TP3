@@ -24,7 +24,6 @@ public class Conta {
         return titular;
     }
 
-
     public int getNumeroDaConta() {
         return numeroDaConta;
     }
@@ -39,7 +38,6 @@ public class Conta {
     }
 
     public double saca(double valor) {
-
 
         if (valor > this.saldo) {
             System.out.println("Saldo insuficiente!");
